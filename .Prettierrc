@@ -1,0 +1,34 @@
+{
+  "semi": true,
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "trailingComma": "none",
+  "overrides":
+    [
+      {
+        "files": "*.json",
+        "options":
+          {
+            "printWidth": 200,
+            "trailingComma": "none",
+            "singleQuote": false,
+            "doubleQuote": true,
+            "tabWidth": 2,
+            "semi": false
+          }
+      },
+      {
+        "files": [".ts", "./src/**/*.ts", "./src/**/*.tsx"],
+        "options":
+          {
+            "printWidth": 200,
+            "trailingComma": "none",
+            "singleQuote": true,
+            "jsxSingleQuote": true,
+            "doubleQuote": false,
+            "tabWidth": 2,
+            "semi": true
+          }
+      }
+    ]
+}

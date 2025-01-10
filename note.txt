@@ -1,0 +1,13 @@
+JS - Type 
+Number
+String
+Boolean
+Null
+undefined
+Object
+
+Extends' to TS - Type
+Any
+Unknown
+Never 
+Enum
