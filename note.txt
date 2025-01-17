@@ -12,3 +12,43 @@ Unknown
 Never 
 Enum
 tuple
+
+----
+
+Static typing v.s. Dynamic Typing on JavaScript/TypeScript
+
+In TypeScript, "dynamic typing" refers to the behavior, of standard JaavaScript where variable TypeScript types
+are not explicitly defined and are checked at runtime, while "static typing" is the feature TypeScript where
+you explicitly declare variables types at compile time, allowing the compiler to catch potential type error 
+before the code executes, making your code more robust and easier to maintain; essentially, TypeScript provides
+optional static typing on top of JavaScript's dynamic typing, giving developers the flexibility to choose when
+to use type annotations.
+
+Key points about dynamic and static in TypeScript:
+
+Dynamic Typing (JavaScript-like)
+- No need to declare variable types explicitly.
+- Type checking happens at runtime.
+- Can be faster for prototyping due to less code to write.
+- More prone to runtime errors if type mismatch occur.
+
+Static Typing (TypeScript feature)
+- Reqiures explicity declaration of variable types using type annotations.
+- Type checking happens at compile time, catching errors early.
+- Improves codes readability and maintainability.
+- Can sometime feel more verbose due to the need for type annotations.
+
+
+Example of: Dynamic Typing (JavaScript)
+
+let message 'Hello';
+message = 10; // This would be allowed in JavaScript, but could cause issues later.
+console.log(message); // Prints: 10
+
+Example of: Static Typing (TypeScript)
+
+let message: string = 'Hello';
+message = 10; // This would cause a compile-time error because message is defined as a string.
+console.log(message); 
+
+---
