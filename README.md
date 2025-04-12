@@ -1,1 +1,1 @@
-# learn-tsc
+# learn-ts
